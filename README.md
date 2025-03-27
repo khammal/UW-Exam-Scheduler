@@ -6,6 +6,8 @@ A full-featured exam scheduler built for the University of Waterloo, serving 30,
 
 Feel free to check out the [project here!](https://uwscheduler.vercel.app/)
 
+https://github.com/user-attachments/assets/d0174eaa-095f-4063-bcfa-8703132dbf2f
+
 
 ## Features
 
