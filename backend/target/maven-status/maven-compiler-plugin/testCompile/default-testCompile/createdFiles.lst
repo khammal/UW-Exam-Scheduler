@@ -1,0 +1,7 @@
+com/uw/examscheduler/UWExamSchedulerApplicationTests.class
+com/uw/examscheduler/service/ExamServiceTests.class
+com/uw/examscheduler/integration/ExamControllerIntegrationTests.class
+com/uw/examscheduler/repository/HistoricExamTests.class
+com/uw/examscheduler/service/HistoricExamServiceTests.class
+com/uw/examscheduler/repository/ExamTests.class
+com/uw/examscheduler/integration/HistoricExamControllerIntegrationTests.class

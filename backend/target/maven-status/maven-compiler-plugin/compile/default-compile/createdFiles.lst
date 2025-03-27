@@ -1,0 +1,13 @@
+com/uw/examscheduler/exam/model/HistoricExam.class
+com/uw/examscheduler/CorsConfig$1.class
+com/uw/examscheduler/exam/controller/ExamController.class
+com/uw/examscheduler/exam/model/HistoricExamKey.class
+com/uw/examscheduler/exam/model/Exam.class
+com/uw/examscheduler/exam/model/ExamKey.class
+com/uw/examscheduler/exam/repo/ExamRepository.class
+com/uw/examscheduler/UWExamSchedulerApplication.class
+com/uw/examscheduler/exam/controller/HistoricExamController.class
+com/uw/examscheduler/exam/service/ExamService.class
+com/uw/examscheduler/exam/repo/HistoricExamRepository.class
+com/uw/examscheduler/exam/service/HistoricExamService.class
+com/uw/examscheduler/CorsConfig.class
