@@ -1,0 +1,38 @@
+.data-page{ 
+  h2{
+    font-weight: 400;
+  }
+}
+
+.table-transform {
+  transform: scale(1.1); 
+  transform-origin: top left;
+}
+
+@media screen and (max-width: 1150px){
+    .data-page{
+      .text-zone{
+        top:20%;
+        width: 80%;
+        h1{
+            font-size: 40px;
+        }
+      }
+      .table-container {
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(#212121, #212121) padding-box,
+                    linear-gradient(145deg, transparent -100%,#ffa600, #fdf515) border-box;
+        border: 2px solid transparent;
+        overflow: auto;
+        max-height: 250px;
+  
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #555; 
+            background-color: #333;
+        }
+      }
+    }
+  }

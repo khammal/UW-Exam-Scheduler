@@ -1,0 +1,170 @@
+.contact-page{
+    .text-zone{
+        position: absolute; 
+        align-content: center;
+        left: 10%; 
+        top: 30%; 
+        transform: translateY(-50%); 
+        max-height: 90%; 
+        display: absolute;
+        max-width: 80%;
+        margin-top: 100px;
+    }
+    h1{
+        color: #fff; 
+        font-size: 60px; 
+        margin: 0; 
+        font-weight: 600; 
+        cursor: pointer;
+  
+        &::before { 
+            color: #ffd700; 
+            position: absolute; 
+            margin-top: -40px; 
+            left: 15px; 
+            opacity: 0.6; 
+        }
+  
+        &::after { 
+            color: #ffd700; 
+            position: absolute; 
+            margin-top: 18px; 
+            left: 20px; 
+            animation: fadeIn 1s 1.7s backwards; 
+            opacity: 0.6; 
+        }
+      }
+      h2{
+        color: #fff;
+        font-weight: 400;
+      }
+    .contact-form{
+        width: 100%; 
+        margin-top: 100px;
+
+        ::placeholder {
+            color: rgb(170, 170, 170);
+        }
+        
+        ul {
+            padding: 0; 
+            margin: 0;
+
+            li{
+                padding: 0; 
+                margin: 0; 
+                list-style: none; 
+                margin-bottom: 10px;
+                overflow: hidden; 
+                display: block; 
+                position: relative; 
+                opacity: 0;
+                animation: fadeInUp 3s; 
+                animation-fill-mode: forwards;
+                clear: both;
+            }
+
+            li.half { 
+                width: 49%; 
+                margin-left: 2%; 
+                float: left; 
+                clear: none; 
+
+                &:first-child { 
+                    margin-left: 0;
+                }
+            }
+        }
+
+        input[type='text'], 
+        input[type='email'] { 
+            width: 100%; 
+            border: 0; 
+            background: #373737;
+            height: 50px; 
+            font-size: 16px; 
+            color: #fff;
+            padding: 0 20px; 
+            box-sizing: border-box;
+        }
+
+        textarea{ 
+            width: 100%; 
+            border: 0; 
+            background: #373737; 
+            height: 200px; 
+            font-size: 16px; 
+            color: #fff; 
+            padding: 20px; 
+            min-height: 150px; 
+            box-sizing: border-box; 
+        }
+
+        .flat-button{
+            color: black; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: #fdcf15; 
+            font: 11px; 
+            letter-spacing: 2px; 
+            text-decoration: none; 
+            padding: 8px 10px; 
+            border: 1px solid #fdcf15; 
+            float: right; 
+            border-radius: 4px;
+
+            &:hover { 
+                background: #fdf515;
+                border: 1px solid #fdf515; 
+                color: black;
+            }
+        }
+    }
+
+    .icon{
+        width: 50px;
+        margin: 30px;
+        opacity: 0.8;
+        color: #fdcf15; 
+
+        &:hover { 
+            opacity: 1;
+        }
+    }
+    .right-side{
+        padding-left: 500px;
+    }
+    .left-side{
+        position: absolute;
+        width: 450px;
+        margin-top: 100px;
+    }
+    @media screen and (max-width: 1150px){
+        h1{
+            font-size: 50px;
+        }
+        .text-zone{
+            overflow: hidden;
+        }
+        .map-wrap {
+            float: none; 
+            width: 100%; 
+            height: 400px; 
+            margin: 0; 
+        }
+        .info-map{
+            display: none; 
+        }
+        .left-side{
+            width: 100%;
+            margin-top: -15px;
+            padding-left: 0;
+        }
+        .right-side{
+            padding-left: 10000px;
+        }
+        .icon{
+            margin: 10px;
+        }
+    }
+
+}
