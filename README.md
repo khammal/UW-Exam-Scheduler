@@ -4,14 +4,14 @@ A full-featured exam scheduler built for the University of Waterloo, serving 30,
 
 ## Visit The Site
 
-Feel free to check out the [project here!](https://uwscheduler.vercel.app/)
+Feel free to check out the [project here!](https://uwscheduler.netlify.app/)
 
 
 ## Features
 
 - **PostgreSQL Database:** Stores detailed information about exams, including dates, times, courses, locations, and more.
-- **Spring Boot Backend:** Provides a robust RESTful API to manage exam data efficiently. The backend is packaged as a Dockerfile and hosted on Heroku.
-- **ReactJS Frontend:** A user-friendly interface for viewing, adding, editing, and deleting exam information. The frontend is hosted on Vercel.
+- **Spring Boot Backend:** Provides a robust RESTful API to manage exam data efficiently. The backend is packaged as a jar and hosted on AWS Elastic Beanstalk.
+- **ReactJS Frontend:** A user-friendly interface for viewing, adding, editing, and deleting exam information. The frontend is hosted on Netlify.
 
 ## Prerequisites
 
