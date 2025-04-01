@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:3000", "https://uwscheduler.vercel.app/")
+                        .allowedOrigins("http://localhost:3000", "https://uwscheduler.netlify.app/")
                         .allowedMethods("GET");
             }
         };
