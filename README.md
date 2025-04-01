@@ -6,6 +6,8 @@ A full-featured exam scheduler built for the University of Waterloo, serving 30,
 
 Feel free to check out the [project here!](https://uwscheduler.netlify.app/)
 
+https://github.com/user-attachments/assets/e449edb8-3749-4894-851a-f7322f12cdd6
+
 
 ## Features
 
