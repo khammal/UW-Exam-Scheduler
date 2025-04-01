@@ -3,6 +3,8 @@ import axios from 'axios';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+
 const Historic = () => {
   const [error, setError] = useState(null);
   const [examData, setExamData] = useState([]);
@@ -34,7 +36,7 @@ const Historic = () => {
 
     if (className && years) {
       axios
-        .get(`http://localhost:8080/api/v1/historic-exams/historic?names=${encodeURIComponent(className)}&years=${encodeURIComponent(years)}`)
+        .get(`${API_URL}/api/v1/historic-exams/historic?names=${encodeURIComponent(className)}&years=${encodeURIComponent(years)}`)
         .then((response) => {
           setExamData(response.data);
         })

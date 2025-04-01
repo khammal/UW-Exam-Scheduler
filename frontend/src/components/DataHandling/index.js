@@ -3,6 +3,8 @@ import axios from 'axios';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+
 const DataHandling = () => {
   const [error, setError] = useState(null);
   const [examData, setExamData] = useState([]);
@@ -31,7 +33,7 @@ const DataHandling = () => {
     }, 1);
     if (className) {
       axios
-      .get(`http://localhost:8080/api/v1/exam?className=${encodeURIComponent(className)}`)
+      .get(`${API_URL}/api/v1/exam?className=${encodeURIComponent(className)}`)
         .then((response) => {
           setExamData(response.data);
         })
